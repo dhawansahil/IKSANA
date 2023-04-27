@@ -1,0 +1,44 @@
+
+
+.active{ 
+    background-color: rgb(187, 184, 184);
+    border-radius:5px;
+    border-left-width:10px;
+    border-right-width:10px;
+    border-color:rgb(187, 184, 184);
+   }
+i{
+    color:cornflowerblue;
+}
+
+.edit{
+    position: absolute;
+    right: 300px;
+    bottom: -100px;
+
+
+
+}
+
+.Simulations{
+    border: 2px;
+    border-radius:9px;
+    margin: 50px;
+    transition: transform .2s;
+
+}
+
+.Simulations:hover{
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2); 
+}
+
+
+.Sim-rows{
+    margin-left:50px;
+}
+
+
+
+
